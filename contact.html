@@ -5,51 +5,32 @@
     <link rel="stylesheet" href="assets/css/sample.css">
     <link rel="stylesheet" href="assets/css/contact.css">
   </head>
-  <body>  
-    <div class="frame">
-        <div class="sexy">            
-          <div  class="home">
-             <a href="index.html">Home</a>
-          </div>
-          <div  class="about">
-             <a href="about.html">About</a>
-          </div>
-          <div  class="contact">                          
-             <a href="contact.html">Contact</a> 
-          </div> 
+  <body>
+    <div class="frame"> 
+      <div class="sexy">            
+        <div  class="home">
+           <a href="index.html">Home</a>
         </div>
-     <div class="table">                 
-       <div class="firstnametable">
-          <div class="firstnametext">Firstname: <br> <br> <br>
-          <div class="text1">
-             <input type="text"> 
-          </div>
-          </div>
-       </div>      
-       <div class="middlenametable"> 
-         <div class="middlenametext">Middlename: <br> <br> <br>
-         <div class="text2">
-           <input type="text"> 
-         </div>
-         </div>
-       </div>
-       <div class="lastnametable">
-          <div class="lastnametext">Lastname: <br> <br> <br> 
-          <div class="text">
-            <input type="text"> 
-          </div>         
-          </div>
-       </div>
-        <div class="messagetable">
-          <input type="submit" value="Submit" class="submit-button"> 
-          <div class="messagetext">Message:
-          <div class="text4">
-            <input type="text"> 
-          </div>                       
-          </div>
-        </div>                                                             
+        <div  class="about">
+           <a href="about.html">About</a>
+        </div>
+        <div  class="contact">                          
+           <a href="contact.html">Contact</a> 
+        </div> 
       </div>
-    </div>      
+      <div class="wrapper">
+      <form class="form">
+        <div class="pageTitle title">SIGN UP </div>
+        <div class="secondaryTitle title">Please fill this form to sign up.</div>
+        <input type="text" class="name formEntry" placeholder="Name" />
+        <input type="text" class="email formEntry" placeholder="Email"/>
+        <textarea class="message formEntry" placeholder="Message"></textarea>     
+        <button class="submit formEntry" onclick="thanks()">Submit</button>
+      </form>
+     </div> 
+    </div>
   </body> 
 </html>
-  
+
+
+

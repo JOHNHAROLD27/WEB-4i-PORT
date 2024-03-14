@@ -1,130 +1,134 @@
-.table {
-  position:absolute;
-  width: 700px;
-  height: 600px;
-  border: 1px solid;
-  border-color:aliceblue;
-  background-color: rgb(137, 221, 232);
-  border-radius:30px;
-  margin:100px 0px 0px 500px;
+.form {
+  background: #f7f4f6;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 30px;
+  max-width: 480px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-top: 5px solid #061969;
+  animation: bounce 2.5s infinite;
 }
 
 
-.firstnametext {
-  font-size:25px;
-  font-weight:bold;
-  color:aliceblue;
-  margin:7px 0px 0px 10px;
+
+::-webkit-input-placeholder {
+  font-size: 1.3em;
 }
 
-.middlenametext {
-  font-size:25px;
-  font-weight:bold; 
-  color:aliceblue;
-  margin:7px 0px 0px 10px;
-}
 
-.lastnametext {
-  font-size:25px;
-  font-weight:bold;
-  color:aliceblue;
-  margin:7px 0px 0px 10px;
-}
 
-.firstnametable {
-  width:600px;
-  height:40px;
-  border:1px solid;
-  border-color:aliceblue;
-  background-color: rgb(5, 101, 110);
-  border-radius:100px;
-  margin:20px 0px 0px 45px;
-  color:white;
-  font-size:20px;
-  
+.title{
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 300px;
 
-}
-
-.middlenametable {
-  width:600px;
-  height:40px;
-  border:1px solid;
-  border-color:aliceblue;
-  background-color: rgb(5, 101, 110);
-  border-radius:100px;
-  margin:20px 0px 0px 45px;
-  color:white;
-  font-size:20px;
-  
-
-}
-
-.lastnametable {
-  width:600px;
-  height:40px;
-  border:1px solid;
-  border-color:aliceblue;
-  background-color: rgb(5, 101, 110);
-  border-radius:100px;
-  margin:20px 0px 0px 45px;
-  color:white;
-  font-size:20px;
-  
 
 }
 
 
-.messagetable {
-    position:absolute;
-    width: 600px;
-    height: 200px;
-    border: 1px solid;
-    border-color:aliceblue;
-    background-color: rgb(5, 101, 110);
-    border-radius:30px;
-    margin:100px 0px 0px 5%;
-  }
-  
-
-  .messagetext {
-    font-size:25px;
-    font-weight:bold;
-    color:aliceblue;
-    margin:20px 0px 0px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    position:absolute;
-    
-    
-  }
-
-
-.submit-button { 
-  position:absolute;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  margin:230px 0px 0px 244px;
+.pageTitle{
+  font-size: 30px;
   font-weight: bold;
-}
-
-.submit-button:hover {
-  background-color: #89b300;
-}
-
-.submit-button:active {
-  background-color: #eb3535;
+  margin-left: auto;
+  color:#0e3721;
 }
 
 
 
+.secondaryTitle{
+  color: grey;
+}
 
-.wan {  
-  background-color: rgb(5, 101, 110); ;
+
+
+
+
+.name:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+  background-color: #ebebeb;
+  border-radius: 20px;
   
 }
+
+
+
+
+
+.email:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+  background-color: #ebebeb;
+  border-radius: 20px;
+
+}
+
+
+
+
+
+
+.message:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 12em;
+  width: 380px;
+  transition: ease 0.5s;
+  background-color: #ebebeb;
+  border-radius: 20px;
+
+}
+
+
+
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+
+
+
+.submit {
+  width: 200px;
+  color: white;
+  background-color: #0e3721;
+  font-size: 20px;
+}
+
+
+
+.submit:hover {
+  box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  transform: translateY(-3px);
+  width: 300px;
+  border-top: 5px solid #0e3721;
+  border-radius: 0%;
+}
+
+
+
+@keyframes bounce {
+  0% {
+    tranform: translate(0, 4px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+} 
