@@ -13,7 +13,7 @@
 
 }
 
-.sexy {  /* Styling for the navigation links container */
+.navigation {  /* Styling for the navigation links container */
   position: absolute;
   width: 350px;
   height: 50px;
@@ -79,15 +79,6 @@ a:hover {
 
 }
 
-.ProfileText4 {
-  width:700px;
-  position: absolute;
-  color:#ffffff;
-  font-size:16px;
-  font-weight:normal;
-  top: 820px;
-  margin-left: 65px;
-}
 
 
 .blur {  /* styling for ellipse and dropshadow*/
@@ -122,18 +113,27 @@ a:hover {
   width:300px;
 }
 
-.icon {  /* Styling for the social media icons container */
+.icon_container {  /* Styling for the social media icons container */
   position: absolute;
   width: 280px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 863px 0px 0px 50px
+  margin: 800px 0px 0px 60px
 }
 
-.icons {  /* Styling for the individual social media icons */
+.icon {  /* Styling for the individual social media icons */
   width:40px;
 }
 
 
+.watermark {
+  width:700px;
+  position: absolute;
+  color:#ffffff;
+  font-size:16px;
+  font-weight:normal;
+  top: 867px;
+  margin-left: 60px;
+}
